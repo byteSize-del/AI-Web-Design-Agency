@@ -39,9 +39,9 @@ export const Footer = () => {
         <div className="w-full pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 text-white/40 text-xs font-body">
           <div>© 2026 Studio</div>
           <div className="flex items-center gap-6">
-            <Link to="/privacy" className="hover:text-white/80 transition-colors">Privacy</Link>
-            <Link to="/terms" className="hover:text-white/80 transition-colors">Terms</Link>
-            <Link to="/contact" className="hover:text-white/80 transition-colors">Contact</Link>
+            <Link to="/" className="hover:text-white/80 transition-colors">Privacy</Link>
+            <Link to="/" className="hover:text-white/80 transition-colors">Terms</Link>
+            <Link to="/" className="hover:text-white/80 transition-colors">Contact</Link>
           </div>
         </div>
       </div>

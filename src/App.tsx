@@ -11,8 +11,6 @@ import { Process } from './pages/Process';
 import { Pricing } from './pages/Pricing';
 import { Contact } from './pages/Contact';
 import { CaseStudy } from './pages/CaseStudy';
-import { Privacy } from './pages/Privacy';
-import { Terms } from './pages/Terms';
 
 const AnimatedRoutes = () => {
   const location = useLocation();
@@ -27,8 +25,6 @@ const AnimatedRoutes = () => {
         <Route path="/process" element={<Process />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/privacy" element={<Privacy />} />
-        <Route path="/terms" element={<Terms />} />
       </Routes>
     </AnimatePresence>
   );

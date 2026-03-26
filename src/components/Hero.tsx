@@ -2,25 +2,22 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { ArrowUpRight, Play } from 'lucide-react';
 import { BlurText } from './BlurText';
-import { HLSVideo } from './HLSVideo';
 
 export const Hero = () => {
   return (
     <section className="relative overflow-visible h-[1000px] bg-black flex flex-col items-center">
-      <div className="absolute top-[10%] w-full h-[80%] z-0 overflow-hidden">
-        <HLSVideo
-          src="https://stream.mux.com/8wrHPCX2dC3msyYU9ObwqNdm00u3ViXvOSHUMRYSEe5Q.m3u8"
-          className="w-full h-full object-cover opacity-80"
-          autoPlay
-          loop
-          muted
-          playsInline
-        />
-      </div>
+      <video
+        src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260307_083826_e938b29f-a43a-41ec-a153-3d4730578ab8.mp4"
+        className="absolute top-[20%] w-full h-auto object-contain z-0"
+        autoPlay
+        loop
+        muted
+        playsInline
+        poster="/images/hero_bg.jpeg"
+      />
       
-      <div className="absolute inset-0 bg-black/20 z-0" />
+      <div className="absolute inset-0 bg-black/5 z-0" />
       <div className="absolute bottom-0 left-0 right-0 z-[1] h-[300px] bg-gradient-to-b from-transparent to-black" />
-      <div className="absolute top-0 left-0 right-0 z-[1] h-[300px] bg-gradient-to-t from-transparent to-black" />
       
       <div className="z-10 flex flex-col items-center pt-[150px] px-6 text-center max-w-5xl mx-auto">
         <div className="liquid-glass rounded-full px-3.5 py-1 text-xs font-medium text-white font-body inline-flex items-center gap-2 mb-8">

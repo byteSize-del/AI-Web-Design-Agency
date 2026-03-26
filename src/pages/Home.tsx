@@ -5,6 +5,7 @@ import { Partners } from '../components/Partners';
 import { HowItWorks } from '../components/HowItWorks';
 import { FeaturesChess } from '../components/FeaturesChess';
 import { FeaturesGrid } from '../components/FeaturesGrid';
+import { AIDemo } from '../components/AIDemo';
 import { Stats } from '../components/Stats';
 import { Testimonials } from '../components/Testimonials';
 
@@ -15,6 +16,7 @@ export const Home = () => {
       <Partners />
       <HowItWorks />
       <FeaturesChess />
+      <AIDemo />
       <FeaturesGrid />
       <Stats />
       <Testimonials />
